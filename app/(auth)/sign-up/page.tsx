@@ -1,9 +1,9 @@
-import AuthFrom from '@/components/AuthFrom'
+import AuthForm from '@/components/AuthForm'
 
 const SignUp = async () => {
     return (
         <section className="flex-center size-full max-sm:px-6">
-            <AuthFrom typr="sign-up" />
+            <AuthForm type="sign-up" />
         </section>
     )
 }
